@@ -1,0 +1,235 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Chawwie",
+				"abbreviation": "LAD",
+				"full": "Chawwie",
+				"url": "",
+				"authors": [
+					"UWU"
+				],
+				"convertedBy": [
+					"Bombboa"
+				]
+			}
+		],
+		"dateAdded": 1617895926,
+		"dateLastModified": 1617895926
+	},
+	"monster": [
+		{
+			"name": "Chawwie",
+			"isNamedCreature": true,
+			"source": "Chawwie",
+			"page": 1,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"shapechanger",
+					"lad"
+				]
+			},
+			"alignment": null,
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 204,
+				"formula": "24d8 + 96"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 20,
+			"con": 18,
+			"int": 22,
+			"wis": 22,
+			"cha": 24,
+			"save": {
+				"dex": "+11",
+				"int": "+12",
+				"wis": "+12",
+				"cha": "+13"
+			},
+			"skill": {
+				"insight": "+12",
+				"perception": "+12",
+				"performance": "+13"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 22,
+			"resist": [
+				"necrotic",
+				"psychic"
+			],
+			"vulnerable": [
+				{
+					"special": "Bad Puns"
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Lad Speech",
+				"Common (Unique Accent)"
+			],
+			"cr": "17",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Chawwie's innate spell casting ability is Charisma (spell save {@dc 21}). He can innately cast the following spells, requiring no material components:"
+					],
+					"footerEntries": [
+						"At will: detect thoughts, freedom of movement,vicious mockery (4d4 psychic damage)",
+						"3/day each: blur, confusion, mirror image",
+						"1/day each: mislead, temporal shunt"
+					],
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If Chawwie fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Storyteller Savant",
+					"entries": [
+						"Chawwie can use a bonus action to polymorph into a Small or Medium humanoid he has seen. His statistics, other than his size, are the same in each form. Any equipment he is wearing or carrying isn't transformed. His confidence is boosted, when polymorphed this way, Chawwie gets advantage on Performance checks."
+					]
+				},
+				{
+					"name": "Lore Keeper",
+					"entries": [
+						"Unless Chawwie is blackout drunk (or {@condition incapacitated}), he is immune to magic that allows other creatures to read his thoughts, determine whether he is lying, know his alignment, or know his creature type. Creatures can telepathically communicate with Chawwie only if he allows it. What a lad."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Chawwie makes two slap attacks and one bite attack."
+					]
+				},
+				{
+					"name": "Slap",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) bludgeoning damage plus 10 ({@damage 3d6}) psychic damage, and the target has disadvantage on the next attack roll it makes before Chawwie's next turn."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}16 ({@damage 3d6 + 6}) piercing damage. If Chawwie manages to bite a finger, the targeted creature must make either an athletics or acrobatics check to avoid being {@condition grappled}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Hi Back",
+					"entries": [
+						"Whenever a creature says \"I'm ...\" Chawwie can use his reaction to say \"Hi ...\" and teleport to an unoccupied space within 5ft. of them."
+					]
+				},
+				{
+					"name": "Consequences",
+					"entries": [
+						"When Chawwie takes damage, he can use his reaction to hit his enemies with sudden realization of what just happened. Every creature within 20 feet of Chawwie must succeed on DC20 Wisdom saving throw or be {@condition frightened} until the end of Chawwie's next turn. If the attacker is within 20 feet of Chawwie and fails their saving throw, they are crushed with the feeling of guilt and take half of the damage they dealt to Chawwie."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Chawwie makes either a bite or slap attack."
+					]
+				},
+				{
+					"name": "Cast a Spell (Costs 2 Actions)",
+					"entries": [
+						"Chawwie casts one of his innate spells."
+					]
+				},
+				{
+					"name": "TPK Much? (Costs 3 Actions)",
+					"entries": [
+						"Chawwie rapidly takes the form of several fallen heroes from previous campaigns, lashing out at all nearby. Each creature within 10 feet of Lazav must succeed on a {@dc 21} Dexterity saving throw or take 18 ({@damage 4d8}) damage of a type chosen by Lazav: acid, cold, fire, lightning, or necrotic."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Lazav",
+				"source": "GGR",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Lazav is uniquely qualified to be the Dimir guildmaster: he is a shapechanger whose mysterious genius is informed by agents from the entire Dimir network. He takes on a tremendous variety of guises as his needs and plans require. He might step out into the Ravnican streets as an elderly widow to eavesdrop at the bazaar, become a vedalken hussar of the Azorius Senate to sidestep a checkpoint, or transform into a Tin Street merchant to deceive a passing noble. His true form might be that of a doppelganger or some other creature; no one has ever seen it."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://cdn.discordapp.com/attachments/594842051896672269/829720423196524614/token_1_15.png",
+			"traitTags": [
+				"Legendary Resistances"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"Y"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"AOE",
+				"MW"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"incapacitated"
+			],
+			"hasFluff": true
+		}
+	]
+}
